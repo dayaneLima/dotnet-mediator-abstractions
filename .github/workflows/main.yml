@@ -31,7 +31,7 @@ jobs:
         run: dotnet build src/Mediator.Abstractions/Mediator.Abstractions.csproj --configuration Release
 
       - name: Create the Package
-        run: dotnet pack src/Mediator.Abstractions/Mediator.Abstractions.csproj --configuration Release --output ./nupkgs /p:Version=$VERSION
+        run: dotnet pack src/Mediator.Abstractions/Mediator.Abstractions.csproj --configuration Release --output ./nupkgs /p:Version=${{ env.VERSION }}
 
       - name: Publish to NuGet
         run: dotnet nuget push "src/Mediator.Abstractions/bin/Release/*.nupkg" -k ${{ secrets.NUGET_SECRET_D_MEDIATOR_ABSTRACTIONS }} -s https://api.nuget.org/v3/index.json
