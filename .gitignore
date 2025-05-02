@@ -1,0 +1,81 @@
+# Compilação e pacotes
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.zip
+*.tar.gz
+*.log
+
+# Diretórios de pacotes
+packages/
+*.nupkg
+*.snupkg
+.nuget/
+
+# Configurações locais do Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Arquivos de build do MSBuild
+*.builds
+
+# Diretórios do Visual Studio Code
+.vscode/
+
+# Arquivos de configurações temporárias
+*.tmp
+*.bak
+*.swp
+*~ 
+
+# Banco de dados local
+*.mdf
+*.ldf
+
+# Logs
+*.log
+
+# Arquivos do Rider e JetBrains
+.idea/
+
+# Configurações do sistema
+Thumbs.db
+Desktop.ini
+
+# Diretórios de Testes e Cobertura
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+*.trx
+
+# Secretos do User Secrets do .NET
+**/secrets.json
+
+# Arquivos do Azure
+.publishsettings
+*.azurePubxml
+
+# Arquivos gerados por ferramentas
+Generated_Code/
+
+# Diretórios de backup do Visual Studio para PublishProfiles
+Properties/PublishProfiles/Backup/
+
+# Arquivos de lock e cache
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Outras extensões comuns
+*.ncrunch*
+*.ndoc
+*.nunit.xml
+*.dotCover
