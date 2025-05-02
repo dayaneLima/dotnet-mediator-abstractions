@@ -6,16 +6,16 @@
     <Nullable>enable</Nullable>
 
     <PackageId>D.Mediator.Abstractions</PackageId>
-    <Version>1.0.2</Version>
-    <icon>https://raw.githubusercontent.com/dayaneLima/dotnet-mediator/refs/heads/main/src/Mediator.Abstractions/icon.png</icon>
+    <Version>1.0.3</Version>
+    <icon>https://raw.githubusercontent.com/dayaneLima/dotnet-mediator-abstractions/refs/heads/main/src/Mediator.Abstractions/icon.png</icon>
     <Licence>MIT</Licence>
     <Authors>Dayane Lima</Authors>
     <Company>Dayane Lima</Company>
     <PackageDescription>Abstractions for Mediator Pattern Implementations</PackageDescription>
     <Description>Abstractions for Mediator Pattern Implementations</Description>
-    <RepositoryUrl>https://github.com/dayaneLima/dotnet-mediator/tree/main/src/Mediator.Abstractions</RepositoryUrl>
+    <RepositoryUrl>https://github.com/dayaneLima/dotnet-mediator-abstractions</RepositoryUrl>
     
-    <PackageProjectUrl>https://github.com/dayaneLima/dotnet-mediator/tree/main/src/Mediator.Abstractions</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/dayaneLima/dotnet-mediator-abstractions</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>icon.png</PackageIcon>
     <PackageTags>D.Mediator;Mediator;D.Mediator.Abstractions;Mediator.Abstractions;Design Pattern;Domain;</PackageTags>
